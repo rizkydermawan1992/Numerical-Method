@@ -1,0 +1,17 @@
+Prosedur Pencarian Akar Fungsi (Bisection Mehod)
+
+1.  Tentukan fungsi f(x), interval [a,b], dan nilai 
+    toleransi (ε)
+2.  Hitung masing-masing nilai f(a) dan f(b)
+3.  Hitung nilai f(a).f(b) lalu cek hasilnya dimana :
+    Jika f(a).f(b) < 0 maka lanjutkan proses
+    Jika f(a).f(b) >= 0 maka hentikan proses 
+4.  Hitung nilai tengah c = (a+b)/2 dan f(c)
+5.  Hitung nilai f(c).f(a) lalu cek hasilnya dimana :
+    Jika f(c).f(a) < 0 maka b diganti c dan f(b) diganti f(c)
+    Jika f(c).f(a) > 0 maka a diganti c dan f(a) diganti f(c)
+    Jika f(c).f(a) = 0 maka c adalah akar fungsi
+6.  Hitung nilai error (|b-a|)
+7.  Pengecekan akhir iterasi dimana :
+    Jika |b-a| <=  ε maka hentikan iterasi (Akar Fungsi = c)
+    Jika |b-a| > ε maka lanjutka
