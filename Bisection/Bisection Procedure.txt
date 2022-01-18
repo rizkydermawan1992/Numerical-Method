@@ -1,8 +1,8 @@
 --------------NUMERICAL METH0D---------------------------
 Prosedur Pencarian Akar Fungsi (Bisection Mehod)
 
-1.  Tentukan fungsi f(x), interval [a,b], dan nilai 
-    toleransi (ε)
+1.  Tentukan fungsi f(x), interval [a,b], nilai 
+    toleransi (ε), dan iterasi maximum
 2.  Hitung masing-masing nilai f(a) dan f(b)
 3.  Hitung nilai f(a).f(b) lalu cek hasilnya dimana :
     Jika f(a).f(b) < 0 maka lanjutkan proses
