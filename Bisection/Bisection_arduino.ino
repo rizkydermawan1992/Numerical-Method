@@ -38,6 +38,12 @@ void loop(){
   float eps = eps_str.toFloat();
   Serial.println(eps, 5);
 
+  Serial.print("Masukkan Nilai i max = ");
+  waitInput();
+  String imax_str = Serial.readString();
+  int imax = imax_str.toInt();
+  Serial.println(imax);
+
   delay(2000);
 
   //Menghitung nilai f(a) dan f(b)
@@ -49,7 +55,7 @@ void loop(){
   //Mengecek hasil perkalian f(a).f(b)
   if(fa*fb < 0){
      //Lakukan Iterasi
-     for(int i = 1; i <= 100; i++){
+     for(int i = 1; i <= imax; i++){
          float c = (a+b)/2;
          x = c;
          float fc = te_eval(fx);
@@ -102,4 +108,3 @@ void loop(){
   }
  delay(2000); 
 }
-
