@@ -1,3 +1,4 @@
+--------------NUMERICAL METH0D---------------------------
 Prosedur Pencarian Akar Fungsi (Bisection Mehod)
 
 1.  Tentukan fungsi f(x), interval [a,b], dan nilai 
